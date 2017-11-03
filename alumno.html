@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Alumno</title>
+    <style>
+        form {
+            width: 21em;
+            margin: 0 auto;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="Logo.png" alt="logotipo"></a>
+
+    </header>
+
+    <form method="get" action=".">
+        <br>
+        <br>
+        <fieldset>
+            <legend>
+                <h3>ALUMNO</h3>
+            </legend>
+            <label>Elige un ciclo: 
+			 <select name="ciclo">
+				  <option value="0">DAW</option>
+				  <option value="1">DAM</option>
+			</select>
+			</label>
+            <br>
+            <br>
+            <label>Elige una asignatura: 
+			  <select name="modulo">
+				  <option value="0">DIW</option>
+				  <option value="1">DWES</option>
+				  <option value="2">DC</option>
+				  <option value="3">IEE</option>
+			    </select>
+			</label>
+            <br>
+            <br>
+			<input type="button" value="Ver exámenes y trabajos" onclick = "location='seleccionar.html'"/>
+            <input type="button" value="Ver notas" onclick = "location='TablaPublicaciones.html'"/>
+            
+        </fieldset>
+
+
+    </form>
+	<br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer>
+		<p>Sergio Aitor | 2017 ©</p>
+    </footer>
+
+</body>
+
+</html>
